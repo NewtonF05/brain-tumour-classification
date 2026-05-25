@@ -29,7 +29,7 @@ The two custom CNNs serve as baselines to contextualise the transfer-learning ga
 
 ## Results
 
-[Add a summary table or confusion matrix screenshot here once you've re-run it — e.g. *"ResNet18 reached XX% mean accuracy across folds, with EfficientNetB0 close behind at YY%."*]
+![Aggregate 5-fold confusion matrix for ResNet18 across the three tumour classes, with diagonal accuracies of 90.1% (meningioma), 97.3% (glioma) and 97.8% (pituitary)](figures/final_resnet18_confusion_matrix_percent.png)
 
 Output figures, per-fold metrics, and saved checkpoints are written to `brain_tumour_outputs_current_test/` in the project root.
 
