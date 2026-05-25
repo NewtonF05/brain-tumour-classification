@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+dataset/
+brain_tumour_outputs_current_test/
+*.pth
+*.ckpt
+*.h5
+*.mat
